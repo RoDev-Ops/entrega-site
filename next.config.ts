@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
- output:'export',
- distDir:'dist',
- images: {
-  unoptimized: true,
- },
+  basePath: '/entrega-site',
+  assetPrefix: '/entrega-site/',
+  images: {
+    loader: 'default',
+    path: '/entrega-site/_next/image',
+  },
+  output: 'export',
 };
 
-module.exports = nextConfig;
-
+export default nextConfig;
