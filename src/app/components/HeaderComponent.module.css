@@ -1,0 +1,31 @@
+.headers {
+    height: 100px;
+    background: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchBar {
+    height: 40px;
+    width: 50%;
+    color: #000000;
+    background-color: #ADD8E6;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.logoImg {
+    height: 75px; 
+    width: auto;  
+}
+
+.cartImg {
+    height: 50px; 
+    width: auto;  
+}
+
+.userImg {
+    height: 50px; 
+    width: auto;  
+}

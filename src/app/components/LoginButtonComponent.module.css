@@ -1,0 +1,10 @@
+.loginButton{
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(211, 211, 211) 100%);
+    border-radius: 40px;
+    height: 30px;
+    width: 100px;
+}
+
+.loginButton:hover {
+    background: radial-gradient(circle, rgb(211, 211, 211) 0%, rgb(169, 169, 169) 100%);
+}

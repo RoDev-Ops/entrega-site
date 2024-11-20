@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    background: gray;
+    margin-top: -5px;
+    justify-content: space-evenly;
+}
+
+.courses{
+    margin-top: 50px;
+    width: 330px;
+    height: 160px;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.coursesDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
